@@ -44,19 +44,19 @@
     }
   },
   "base_manifest_sha256": "8f64ebf1f7e5866f46faf41eb4ba1b11b507efcfde49a2eb0e19a7e27d18a49a",
-  "build_version": "public-1.0",
+  "build_version": "public-1.1",
   "canonical_export_unchanged_sha256": "c6f3b98ae6a43ea736700767f6d2354c4880933d825c4649f95bfadea96a3dc7",
   "content_scope": [
     "Research homepage and methods",
     "Delos frozen snapshots and separate three-formulation comparison",
     "Dougga editorial case",
-    "Lepcis seven-monument editorial chronology and five selected actual annotations"
+    "Lepcis seven-monument editorial chronology and five selected actual annotations",
+    "Carthage three CC0 photographs and curated recorded visual observations"
   ],
   "excluded": [
     "Full source XML",
     "Raw model execution/session records",
     "Private experimental packages",
-    "Photographs",
     "Presenter material"
   ],
   "files": {
@@ -65,8 +65,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "README.md": {
-      "bytes": 1091,
-      "sha256": "d6baeb7eeff6189c9f38dd989d8bd0720cd824b7a68f6931de684cfa85b4ff5a"
+      "bytes": 1789,
+      "sha256": "6023d1a6777430d1d08b4c167096d62f9f45fd327eab0c695693e6b1df1f2112"
     },
     "assets/app.js": {
       "bytes": 23815,
@@ -75,6 +75,26 @@
     "assets/comparison.js": {
       "bytes": 350,
       "sha256": "758b333a08dc4778d269779a3680068fa7a0649afdc2b18962d03e21ab755abe"
+    },
+    "assets/iconography.css": {
+      "bytes": 2812,
+      "sha256": "3bbee9a5d224359207526ce10db85ec2e735da557ba979891e5464a8182aa789"
+    },
+    "assets/iconography.js": {
+      "bytes": 5401,
+      "sha256": "07d765b8538803523370706c8cda41a02fb2270919a069368bca81d08cda354e"
+    },
+    "assets/images/AO23296.jpg": {
+      "bytes": 2493079,
+      "sha256": "7426561e60a1b1ccd6669fa8b9ff12a2d4727bb23796ac9997300f16dc0e5a62"
+    },
+    "assets/images/AO23410.jpg": {
+      "bytes": 1557919,
+      "sha256": "6220e6d893db29df059208fe1636e58abe6485d015d9a1c1d7c9cbc157521752"
+    },
+    "assets/images/AO23477.jpg": {
+      "bytes": 1226137,
+      "sha256": "2b83ec172ac285256b575776cf7646d5b37317b2e1312b7e3201f7a44733f321"
     },
     "assets/portal.css": {
       "bytes": 2506,
@@ -89,20 +109,24 @@
       "sha256": "d2b5d19d7edc111eaa898c3b1adba1f4a182360ec446b0b55840c6b5d764a67d"
     },
     "comparison/index.html": {
-      "bytes": 6953,
-      "sha256": "f9938caa81e7dac5b141e6a9ef256725dc2710efe29cc9c2ec49f2352709b914"
+      "bytes": 7004,
+      "sha256": "c065e295e5b48645faaddcf888becfd5450b876f569e21d9a1e999807de39c0a"
     },
     "dougga/index.html": {
-      "bytes": 9605,
-      "sha256": "b4f2235e0772dfacded3cd872d29f1f62462cc8232ebc7e7e05d089fb3a80961"
+      "bytes": 9656,
+      "sha256": "b5dcfc808b9934216ae60f751f79cbb241121c7fc0d1b8551aeeff09984bd9a5"
+    },
+    "iconography/index.html": {
+      "bytes": 5901,
+      "sha256": "ec9b869656d1da0696a54fa4c2862e97ad84481d9c1b3c485b7736ac8f40d9ff"
     },
     "index.html": {
-      "bytes": 6583,
-      "sha256": "153697d7ed3b7b6cafc3c76c80a19b8e77c1d9d60a35d00735f67616b4217762"
+      "bytes": 6831,
+      "sha256": "8515c6a2fb9dbe98c61e13b8c984db6559eddc22e70ad538e41af42044518a10"
     },
     "lepcis/index.html": {
-      "bytes": 16483,
-      "sha256": "2efe179c015839aac59a67bea5f1799bc4900932586189bd81a6b114945e05cb"
+      "bytes": 16534,
+      "sha256": "c7c4e966b6df19017f4dda2fb19970f26ba6f89235ea1536fa8ea9b2d5299b9c"
     },
     "snapshot/dossier.json": {
       "bytes": 47251,
@@ -120,18 +144,32 @@
       "bytes": 41048,
       "sha256": "cac6d021fac4bd0b951849a1ffa9a13e96f7229b8af92b1f626ff29c182ab3a0"
     },
+    "snapshot/iconography.json": {
+      "bytes": 21295,
+      "sha256": "89e01c27b4b7f302c379490231fafe8762fadf6f8f0c703f285417b8838b4067"
+    },
     "snapshot/references.json": {
       "bytes": 37800,
       "sha256": "07fe6c2e9eaec53c59652ce24199e3cd107e760f8b9f12b6686e1b0117915141"
     },
     "sources/index.html": {
-      "bytes": 10418,
-      "sha256": "52e1e9dc687adcd3b8a49eb1cd0795dce0347547803ed1f95880284640bd6a96"
+      "bytes": 11932,
+      "sha256": "79d4a19937752453c13fb848e0e2d4bffb7f1f113ac8cbb38caba2e17e063392"
     },
     "workbench/index.html": {
-      "bytes": 1836,
-      "sha256": "9b8395dda8f695f82b124448859b8f3187136c501dac942a19989bce68b3df9d"
+      "bytes": 1887,
+      "sha256": "31f48bb38351fe27a341ae274dee97da07e440374a7e07b5eec875e132c4e4f4"
     }
+  },
+  "iconography": {
+    "immutable_model_version": "not supplied",
+    "output_sha256": "5bd7dc7aa700d4de4e46d26b23ee6468ebf02a4abf7f54b9f1f66265cd7e5596",
+    "prompt_sha256": "be8d89205aae00270edacc85de58ddbd1fb6d4076eb04c9f62d3a3fa9d10150b",
+    "recorded_run_date": "2026-11-17",
+    "requested_model_alias": "gpt-6.1-sol",
+    "review_status": "Human scholarly adjudication pending; no corrections or approvals recorded.",
+    "source_commit": "999ba2e76b8f846eb28d1b56208d843396b1222b",
+    "task": "Describe visible geometry and locate morphology, inscription, damage and possible motifs. Separate observation from conventional label; abstain where uncertain. No OCR, translation, restoration or historical attribution."
   },
   "lepcis": {
     "edition": "IRT2021; Reynolds, Roueché, Bodard, Barron and others",

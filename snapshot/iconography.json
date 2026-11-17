@@ -1,0 +1,449 @@
+{
+  "format_version": "1.0",
+  "mode": "recorded inference; no model executes in this interface",
+  "provenance": {
+    "source_commit": "999ba2e76b8f846eb28d1b56208d843396b1222b",
+    "requested_model_alias": "gpt-6.1-sol",
+    "immutable_model_version": "not supplied",
+    "recorded_run_date": "2026-11-17",
+    "prompt_sha256": "be8d89205aae00270edacc85de58ddbd1fb6d4076eb04c9f62d3a3fa9d10150b",
+    "output_sha256": "5bd7dc7aa700d4de4e46d26b23ee6468ebf02a4abf7f54b9f1f66265cd7e5596",
+    "task": "Describe visible geometry and locate morphology, inscription, damage and possible motifs. Separate observation from conventional label; abstain where uncertain. No OCR, translation, restoration or historical attribution.",
+    "review_status": "Human scholarly adjudication pending; no corrections or approvals recorded."
+  },
+  "model_limitations": [
+    "Bounding boxes are approximate and normalized to the full attached photographs, with the origin at the upper left.",
+    "A single view of each face limits separation of shallow carving from shadows, pitting, and abrasion.",
+    "Proposed labels are visual comparisons only. No inscription is transcribed or translated, and no missing forms, material composition, or historical attribution are inferred."
+  ],
+  "objects": [
+    {
+      "object_id": "louvre:AO23296",
+      "inventory": "AO23296",
+      "concordance": "CIS I 913",
+      "catalogue_url": "https://livres.louvre.fr/steles-puniques-carthage/catalogue/163/",
+      "museum_url": "https://collections.louvre.fr/ark:/53355/cl010148061",
+      "date_label": "250–200 BCE",
+      "date_basis": "Museum catalogue range; not an inscription-internal date",
+      "catalogue_description_paraphrase": "Fragment with triangular pediment and lateral acroteria. Raised hand/forearm above inscription; Tanit sign between two caducei below it. Light limestone. Carthage; Tophet attribution uncertain.",
+      "original_script_status": "No independently verified original-script transcription; photograph is the material witness, not a transcription.",
+      "text_annotation": {
+        "object_id": "louvre:AO23296",
+        "method": "assistant-authored source annotation, not model OCR",
+        "observation": "Divine recipients, ll. 1–2; vow, donor and genealogy, ll. 2–4. The text and lower motif belong to the same monument, but their association does not prove the sign depicts the named deity."
+      },
+      "uncertainty": "DBDMLK is printed in l. 3 and interpreted as ʿBDMLK by the catalogue. Final BN ṢR: catalogue renders “son of Tyre”; museum record interprets family origin as Tyre. Do not silently turn this into a verified migration history.",
+      "photo": {
+        "author": "Shonagon",
+        "license": "CC0-1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_page": "https://commons.wikimedia.org/wiki/File:St%C3%A8le_avec_inscription_d%C3%A9cor%C3%A9e_d%27une_main%2C_d%27un_caduc%C3%A9e_et_d%27un_signe_de_Tanit_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_orientales_AO_23296.jpg",
+        "sha256": "7426561e60a1b1ccd6669fa8b9ff12a2d4727bb23796ac9997300f16dc0e5a62",
+        "file": "assets/images/AO23296.jpg"
+      },
+      "abstentions": [
+        "No conventional label assigned to the upper curve or the carvings flanking the central form.",
+        "Small angular marks near the base are too ambiguous to classify as separate motifs.",
+        "No damaged contours or inscription signs reconstructed."
+      ],
+      "regions": [
+        {
+          "bbox": [
+            0.08,
+            0.06,
+            0.93,
+            0.96
+          ],
+          "observation": "Broad slab with a central tapered projection and a blunt, uneven crest. Lower rounded projections flank it on both shoulders. The lower sides are nearly upright, and the base has a pronounced central notch.",
+          "confidence": "high",
+          "uncertainty": "The clips cover parts of both edges. Chipping obscures the original profiles of the crest, shoulders, and base.",
+          "id": "morphology1",
+          "layer": "morphology"
+        },
+        {
+          "bbox": [
+            0.15,
+            0.33,
+            0.87,
+            0.6
+          ],
+          "legibility": "Four sloping rows are distinguishable across the middle of the face. Many individual grooves are clear, but several signs are incomplete or difficult to separate from nearby marks.",
+          "visible_lines": 4,
+          "confidence": "high",
+          "uncertainty": "Surface losses interrupt parts of the rows. Long oblique strokes extend into the spaces between them.",
+          "id": "inscription1",
+          "layer": "inscription"
+        },
+        {
+          "bbox": [
+            0.14,
+            0.06,
+            0.93,
+            0.36
+          ],
+          "observation": "Rough, pitted areas across the crest and shoulders, with patches of apparent surface loss above the inscription.",
+          "confidence": "high",
+          "uncertainty": "The region includes both rough and smoother patches; the photograph does not distinguish all losses from original surface texture.",
+          "id": "damage1",
+          "layer": "damage"
+        },
+        {
+          "bbox": [
+            0.71,
+            0.61,
+            0.88,
+            0.81
+          ],
+          "observation": "Irregular surface losses intersect the carved loops and curves below the inscription on the right.",
+          "confidence": "high",
+          "uncertainty": "The boundary between abrasion and shallow carving is unclear in places.",
+          "id": "damage2",
+          "layer": "damage"
+        },
+        {
+          "bbox": [
+            0.08,
+            0.72,
+            0.85,
+            0.96
+          ],
+          "observation": "Chipping along the lower left edge and an uneven, notched base.",
+          "confidence": "high",
+          "uncertainty": "The original base profile is indeterminate.",
+          "id": "damage3",
+          "layer": "damage"
+        },
+        {
+          "bbox": [
+            0.49,
+            0.31,
+            0.58,
+            0.37
+          ],
+          "observation": "A short, upward-opening curved groove lies on the centerline immediately above the first inscription row.",
+          "confidence": "medium",
+          "uncertainty": "The lower curve is clearer than its tips. The rough surface above it prevents identification of a complete shape.",
+          "proposed_label": null,
+          "id": "d1",
+          "layer": "motif",
+          "comparison": "partial curve only; catalogue hand/forearm not recovered"
+        },
+        {
+          "bbox": [
+            0.39,
+            0.62,
+            0.68,
+            0.91
+          ],
+          "observation": "A large outlined form widens toward a slightly bowed base. A horizontal bar crosses its narrow upper end, and a small rounded arc rises above the center of the bar.",
+          "confidence": "high",
+          "uncertainty": "The arrangement of the main elements is clear, but the label is a conventional comparison of shapes. The ends of the horizontal bar are less clear.",
+          "proposed_label": "Tanit-sign type",
+          "id": "d2",
+          "layer": "motif",
+          "comparison": "conventional label broadly concordant with catalogue; not independent validation"
+        },
+        {
+          "bbox": [
+            0.24,
+            0.6,
+            0.36,
+            0.74
+          ],
+          "observation": "Two vertically stacked loop-like outlines stand above a broad curve with outward-turning ends, to the left of the large central form.",
+          "confidence": "medium",
+          "uncertainty": "The loops are distinct, but short interruptions make their closure and connection to the lower curve uncertain.",
+          "proposed_label": null,
+          "id": "d3",
+          "layer": "motif",
+          "comparison": "geometric correspondence only; conventional label abstained"
+        },
+        {
+          "bbox": [
+            0.68,
+            0.61,
+            0.86,
+            0.75
+          ],
+          "observation": "Fragments of stacked rounded outlines and outward-curving strokes appear to the right of the large central form.",
+          "confidence": "medium",
+          "uncertainty": "Losses interrupt several contours. The better-preserved left carving does not establish the missing portions on the right.",
+          "proposed_label": null,
+          "id": "d4",
+          "layer": "motif",
+          "comparison": "geometric correspondence only; conventional label abstained"
+        }
+      ]
+    },
+    {
+      "object_id": "louvre:AO23477",
+      "inventory": "AO23477",
+      "concordance": "CIS I 969 (conflicting museum bibliography: 963)",
+      "catalogue_url": "https://livres.louvre.fr/steles-puniques-carthage/catalogue/274/",
+      "museum_url": "https://collections.louvre.fr/ark:/53355/cl010148280",
+      "date_label": "300–200 BCE",
+      "date_basis": "Museum catalogue range; not an inscription-internal date",
+      "catalogue_description_paraphrase": "Fragment; fluted column shafts border the inscription. Lower horizontal agricultural implement, possibly a cart, according to the catalogue. Ochre limestone. Carthage; Tophet attribution uncertain.",
+      "original_script_status": "No independently verified original-script transcription; photograph is the material witness, not a transcription.",
+      "text_annotation": {
+        "object_id": "louvre:AO23477",
+        "method": "assistant-authored source annotation, not model OCR",
+        "observation": "Restored divine recipient, ll. 1′–2′; vow and donor name split across ll. 2′–3′; genealogy, ll. 3′–4′. An agricultural-looking motif does not establish the donor’s occupation."
+      },
+      "uncertainty": "CIS 969 in catalogue heading and museum identifiers; CIS 963 in museum bibliography. Catalogue uncertain strokes in ll. 1′–2′ differ from simplified museum transcription. Photograph title says plough; catalogue suggests cart; vision model suggests vessel. None is independent ground truth.",
+      "photo": {
+        "author": "Shonagon",
+        "license": "CC0-1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_page": "https://commons.wikimedia.org/wiki/File:St%C3%A8le_avec_inscription_d%C3%A9cor%C3%A9e_d%27une_charrue_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_orientales_AO_23477.jpg",
+        "sha256": "2b83ec172ac285256b575776cf7646d5b37317b2e1312b7e3201f7a44733f321",
+        "file": "assets/images/AO23477.jpg"
+      },
+      "abstentions": [
+        "No motif identified on the damaged upper face.",
+        "No firm inscription line count assigned.",
+        "No specific vessel type or function assigned to the lower carving."
+      ],
+      "regions": [
+        {
+          "bbox": [
+            0.12,
+            0.05,
+            0.9,
+            0.95
+          ],
+          "observation": "Broad upright slab with inward-sloping upper sides, an uneven flattened crest, and an irregular base. A broad area of apparent surface loss occupies the upper face and meets the inscription along a jagged diagonal boundary.",
+          "confidence": "high",
+          "uncertainty": "The clips obscure parts of the lateral edges. The surviving crest does not establish the original top profile.",
+          "id": "morphology1",
+          "layer": "morphology"
+        },
+        {
+          "bbox": [
+            0.24,
+            0.31,
+            0.76,
+            0.62
+          ],
+          "legibility": "Three row bands can be distinguished below the damaged upper surface: a fragmentary upper band, a clearer middle band, and a short lower band visible on the right. Isolated cuts above them at upper right may belong to another row.",
+          "visible_lines": null,
+          "confidence": "medium",
+          "uncertainty": "The upper break truncates the layout. The isolated upper cuts do not support a firm total, and some strokes in the surviving bands are incomplete.",
+          "id": "inscription1",
+          "layer": "inscription"
+        },
+        {
+          "bbox": [
+            0.15,
+            0.06,
+            0.85,
+            0.46
+          ],
+          "observation": "Broad, uneven upper surface with a jagged lower boundary that crosses the upper inscription area.",
+          "confidence": "high",
+          "uncertainty": "The photograph does not show how much of the original face was removed or whether any carving preceded the loss.",
+          "id": "damage1",
+          "layer": "damage"
+        },
+        {
+          "bbox": [
+            0.45,
+            0.51,
+            0.68,
+            0.7
+          ],
+          "observation": "Irregular rough patch in the lower middle of the inscription panel, near the short bottom row.",
+          "confidence": "medium",
+          "uncertainty": "Shallow grooves and the margins of the rough patch are difficult to distinguish.",
+          "id": "damage2",
+          "layer": "damage"
+        },
+        {
+          "bbox": [
+            0.14,
+            0.84,
+            0.9,
+            0.95
+          ],
+          "observation": "Uneven, chipped lower edge beneath the large carved design.",
+          "confidence": "high",
+          "uncertainty": "The original base profile is indeterminate.",
+          "id": "damage3",
+          "layer": "damage"
+        },
+        {
+          "bbox": [
+            0.16,
+            0.43,
+            0.29,
+            0.69
+          ],
+          "observation": "A narrow, nearly vertical strip with parallel grooves and a widened, stepped foot borders the inscription on the left.",
+          "confidence": "medium",
+          "uncertainty": "The foot and shaft are clearer than the damaged upper end.",
+          "proposed_label": "Column-like border element",
+          "id": "d1",
+          "layer": "motif",
+          "comparison": "conventional label broadly concordant with catalogue; not independent validation"
+        },
+        {
+          "bbox": [
+            0.73,
+            0.36,
+            0.86,
+            0.7
+          ],
+          "observation": "Several long parallel vertical grooves form a band on the right of the inscription, with a widened foot above a horizontal division.",
+          "confidence": "high",
+          "uncertainty": "Some outer grooves merge with the damaged margin, and the upper termination is incomplete.",
+          "proposed_label": "Fluted column-like border element",
+          "id": "d2",
+          "layer": "motif",
+          "comparison": "conventional label broadly concordant with catalogue; not independent validation"
+        },
+        {
+          "bbox": [
+            0.15,
+            0.69,
+            0.84,
+            0.88
+          ],
+          "observation": "Below the panel is a long shallow curved band that rises to a pointed left end. Toward the center and right, a straighter upper band and repeated short near-vertical strokes sit above the curved baseline.",
+          "confidence": "medium",
+          "uncertainty": "The long curved profile supports the comparison, but wear interrupts the upper details. The roles of the short strokes and the form of the right end are unclear.",
+          "proposed_label": "Vessel-like motif",
+          "id": "d3",
+          "layer": "motif",
+          "comparison": "interpretive disagreement: vessel-like vs catalogue possible cart; unresolved, not certified model error"
+        }
+      ]
+    },
+    {
+      "object_id": "louvre:AO23410",
+      "inventory": "AO23410",
+      "concordance": "CIS I 1532",
+      "catalogue_url": "https://livres.louvre.fr/steles-puniques-carthage/catalogue/232/",
+      "museum_url": "https://collections.louvre.fr/ark:/53355/cl010148192",
+      "date_label": "300–200 BCE",
+      "date_basis": "Museum catalogue range; not an inscription-internal date",
+      "catalogue_description_paraphrase": "Fragment with triangular pediment; an anthropomorphized motif at the top, probably derived from the bottle-idol sign. Pale grey limestone. Carthage; Tophet attribution uncertain.",
+      "original_script_status": "No independently verified original-script transcription; photograph is the material witness, not a transcription.",
+      "text_annotation": {
+        "object_id": "louvre:AO23410",
+        "method": "assistant-authored source annotation, not model OCR",
+        "observation": "Divine recipients, ll. 1–3; vow and donor name, ll. 3–4; BT, “daughter of”, l. 4. The catalogue describes a female dedication. This does not identify the carved figure as the donor."
+      },
+      "uncertainty": "The two catalogues vocalize the donor’s name differently (Bitinaʿmat / Batnaʿmat). Retain consonants; no original-script transcription independently verified.",
+      "photo": {
+        "author": "Shonagon",
+        "license": "CC0-1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source_page": "https://commons.wikimedia.org/wiki/File:St%C3%A8le_avec_inscription_d%C3%A9cor%C3%A9e_d%27un_personnage_stylis%C3%A9_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_orientales_AO_23410.jpg",
+        "sha256": "6220e6d893db29df059208fe1636e58abe6485d015d9a1c1d7c9cbc157521752",
+        "file": "assets/images/AO23410.jpg"
+      },
+      "abstentions": [
+        "No conventional label assigned to the upper carving or the broad arc.",
+        "No missing contour or damaged inscription signs reconstructed."
+      ],
+      "regions": [
+        {
+          "bbox": [
+            0.11,
+            0.06,
+            0.9,
+            0.94
+          ],
+          "observation": "Tall slab with a tapered, slightly rounded apex, sloping shoulders, roughly upright lower sides, and an irregular base. The face is pitted, with larger losses along the left side and both lower corners.",
+          "confidence": "high",
+          "uncertainty": "The bounding box excludes the mount. The clips hide short stretches of the side edges, and the photograph does not establish the original outline at chipped edges.",
+          "id": "morphology1",
+          "layer": "morphology"
+        },
+        {
+          "bbox": [
+            0.13,
+            0.53,
+            0.87,
+            0.92
+          ],
+          "legibility": "Partly legible at the stroke level. Four rows are readily distinguishable, and a fifth survives in part along the broken base.",
+          "visible_lines": 5,
+          "confidence": "high",
+          "uncertainty": "Long strokes project between rows, and losses at the sides and base interrupt several signs. Five is a count of visible rows only.",
+          "id": "inscription1",
+          "layer": "inscription"
+        },
+        {
+          "bbox": [
+            0.12,
+            0.39,
+            0.39,
+            0.55
+          ],
+          "observation": "Cluster of irregular depressions and edge losses on the left side above the inscription.",
+          "confidence": "high",
+          "uncertainty": "Individual losses have diffuse boundaries.",
+          "id": "damage1",
+          "layer": "damage"
+        },
+        {
+          "bbox": [
+            0.12,
+            0.72,
+            0.31,
+            0.88
+          ],
+          "observation": "Deep irregular losses along the lower left edge, beside and across the ends of inscription rows.",
+          "confidence": "high",
+          "uncertainty": "The amount of inscription lost cannot be determined.",
+          "id": "damage2",
+          "layer": "damage"
+        },
+        {
+          "bbox": [
+            0.66,
+            0.84,
+            0.9,
+            0.94
+          ],
+          "observation": "Broad stepped loss at the lower right corner extending into the bottom row.",
+          "confidence": "high",
+          "uncertainty": "The original corner shape is indeterminate.",
+          "id": "damage3",
+          "layer": "damage"
+        },
+        {
+          "bbox": [
+            0.43,
+            0.23,
+            0.56,
+            0.3
+          ],
+          "observation": "A short horizontal bar with downturned ends sits above a compact set of curved and angular grooves. The lower outline narrows to a point where it meets the broad arc below.",
+          "confidence": "medium",
+          "uncertainty": "The grooves are visible, but their exact joins and whether they form a single motif are uncertain.",
+          "proposed_label": null,
+          "id": "d1",
+          "layer": "motif",
+          "comparison": "geometric correspondence only; conventional label abstained"
+        },
+        {
+          "bbox": [
+            0.32,
+            0.28,
+            0.7,
+            0.5
+          ],
+          "observation": "A wide arch-shaped groove curves downward from the center toward both sides. Fainter, near-vertical traces lie below its ends.",
+          "confidence": "medium",
+          "uncertainty": "The curved groove is clear. The faint side traces are intermittent, so their connection to the arc cannot be established.",
+          "proposed_label": null,
+          "id": "d2",
+          "layer": "motif",
+          "comparison": "geometric correspondence only; conventional label abstained"
+        }
+      ]
+    }
+  ]
+}
