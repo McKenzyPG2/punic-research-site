@@ -1,0 +1,168 @@
+{
+  "base_build_provenance": {
+    "endpoints": {
+      "/api/dossier": "snapshot/dossier.json",
+      "/api/evaluate": "snapshot/evaluate.json",
+      "/api/export": "snapshot/export.json",
+      "/api/extract": "snapshot/extract.json",
+      "/api/references": "snapshot/references.json"
+    },
+    "format_version": "1.0",
+    "input_sha256": "907430234baee54630a36ccbca7f4ea5ad78c9c1480eb5e564836d307dae0a02",
+    "inputs": {
+      "package/__init__.py": "797b9e274c6bdcc42ed2ff75a0f7446088e5773646d713f2d0aa12c55a57654d",
+      "package/evaluation.py": "8f6e3f61e16917738e5de2ef582ec2d1984435211395a2063c334cfe0e7837bf",
+      "package/export.py": "80393e3a5b748e2454e2e6ee77feae668b8244858507ad07982e2c66e668bb25",
+      "package/extraction.py": "c7bdc1761fdbdd04a8cc39f72f1af7ba81e9bb49880386cea926d5e7da025d09",
+      "package/models.py": "62a9a9655eeaae9a876deb5f0bd808dafc28aa71e3e8cb44543f902d846e955b",
+      "package/serialization.py": "54f73aa3cbffd9118ade542cca721e94b7b28d235341f9e6864f108f02f12230",
+      "package/server.py": "fa7b9730b27597bb1981624ed7f52b2ceea94b6bba1e180688454fe372255814",
+      "package/static_site.py": "12423c560f25dd605c4f1899646574037a8d495f6bff72c37ab86d20a774c937",
+      "package/transliteration.py": "17abf3303661010d0301abbedb3048aa4ee3c0c659db35ac663081eeb366eefc",
+      "package/validation.py": "c23acb373a3340059c16449187628963e411bd242f52ab0c4d5db6c0b88db33f",
+      "research/annotations/delos_reference.json": "00641b2664c077ab1a0746e40f8695f6ade17a03202d640eb207f866daf89728",
+      "research/claims.json": "dfd269c05d9453318bfd1fa7e51fc73d6a3fdc00cc5397655ae8c600cb0fb228",
+      "research/sources.json": "caf3c6542f83a50aebfbc20903d08fa2a97e6a49b716bd922b3c946e83829e74",
+      "web/app.js": "9ef56d2f83e2d18b12f479a815980b1a37f56eebc2bb21db646d0046a1ad3c6f",
+      "web/comparison.js": "758b333a08dc4778d269779a3680068fa7a0649afdc2b18962d03e21ab755abe",
+      "web/comparison.json": "df7c76bb8f07a713bcf529f41ddcc0c23a088542f2debe45ad22a23f50d51d1f",
+      "web/dougga.html": "ca4016fbe6a7d2df3f43068b00648f09bbc1df6706eac3e5f41553d092e65675",
+      "web/index.html": "775f37c20e74201ea6aa1457cb2c00323fe77eba952cd7633a29bf5d93008036",
+      "web/portal.css": "6b5949d68a8dc6b644bc0dfc750e82a740ab7c9202a644fbdcf1e1ca83f8dd61",
+      "web/portal.html": "90bb240b1706bd36b11786580773ead915ee239ffecd14967e500784a053e512",
+      "web/style.css": "d2b5d19d7edc111eaa898c3b1adba1f4a182360ec446b0b55840c6b5d764a67d",
+      "web/translations.json": "e3003639df7ee700166f0d506ad7f5d0644ec4169eafa6c260f5deff271f5e7d"
+    },
+    "interpretation": "Identical canonical API bytes to localhost; Delos comparison and Dougga editorial material excluded.",
+    "mode": "static-precomputed",
+    "reuse": "Source reproduction_basis and citations retained in snapshots; no blanket licence asserted.",
+    "timestamps": "Omitted for deterministic builds; source provenance dates retained.",
+    "versions": {
+      "rules": "1.0",
+      "schema": "1.0",
+      "software": "0.1.0"
+    }
+  },
+  "base_manifest_sha256": "8f64ebf1f7e5866f46faf41eb4ba1b11b507efcfde49a2eb0e19a7e27d18a49a",
+  "build_version": "public-1.0",
+  "canonical_export_unchanged_sha256": "c6f3b98ae6a43ea736700767f6d2354c4880933d825c4649f95bfadea96a3dc7",
+  "content_scope": [
+    "Research homepage and methods",
+    "Delos frozen snapshots and separate three-formulation comparison",
+    "Dougga editorial case",
+    "Lepcis seven-monument editorial chronology and five selected actual annotations"
+  ],
+  "excluded": [
+    "Full source XML",
+    "Raw model execution/session records",
+    "Private experimental packages",
+    "Photographs",
+    "Presenter material"
+  ],
+  "files": {
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "README.md": {
+      "bytes": 1091,
+      "sha256": "d6baeb7eeff6189c9f38dd989d8bd0720cd824b7a68f6931de684cfa85b4ff5a"
+    },
+    "assets/app.js": {
+      "bytes": 23815,
+      "sha256": "2e035cf002f00027e18dafd9b5daf8ad8c4c279d5159ee569a46cde6aabc071b"
+    },
+    "assets/comparison.js": {
+      "bytes": 350,
+      "sha256": "758b333a08dc4778d269779a3680068fa7a0649afdc2b18962d03e21ab755abe"
+    },
+    "assets/portal.css": {
+      "bytes": 2506,
+      "sha256": "6b5949d68a8dc6b644bc0dfc750e82a740ab7c9202a644fbdcf1e1ca83f8dd61"
+    },
+    "assets/research.css": {
+      "bytes": 3087,
+      "sha256": "5298bfc05ca95e70586ccf22ecafabcb439310a419116ab53149fc087cc29f21"
+    },
+    "assets/style.css": {
+      "bytes": 7653,
+      "sha256": "d2b5d19d7edc111eaa898c3b1adba1f4a182360ec446b0b55840c6b5d764a67d"
+    },
+    "comparison/index.html": {
+      "bytes": 6953,
+      "sha256": "f9938caa81e7dac5b141e6a9ef256725dc2710efe29cc9c2ec49f2352709b914"
+    },
+    "dougga/index.html": {
+      "bytes": 9605,
+      "sha256": "b4f2235e0772dfacded3cd872d29f1f62462cc8232ebc7e7e05d089fb3a80961"
+    },
+    "index.html": {
+      "bytes": 6583,
+      "sha256": "153697d7ed3b7b6cafc3c76c80a19b8e77c1d9d60a35d00735f67616b4217762"
+    },
+    "lepcis/index.html": {
+      "bytes": 16483,
+      "sha256": "2efe179c015839aac59a67bea5f1799bc4900932586189bd81a6b114945e05cb"
+    },
+    "snapshot/dossier.json": {
+      "bytes": 47251,
+      "sha256": "2ee6468a42cd661d1331987b850b48bfdf88f1b413fcbc7183a32998928eba19"
+    },
+    "snapshot/evaluate.json": {
+      "bytes": 22824,
+      "sha256": "739fd535c7c1953d50927c2d56498040294fcc629310794d0ed981af462c6ab9"
+    },
+    "snapshot/export.json": {
+      "bytes": 42544,
+      "sha256": "c6f3b98ae6a43ea736700767f6d2354c4880933d825c4649f95bfadea96a3dc7"
+    },
+    "snapshot/extract.json": {
+      "bytes": 41048,
+      "sha256": "cac6d021fac4bd0b951849a1ffa9a13e96f7229b8af92b1f626ff29c182ab3a0"
+    },
+    "snapshot/references.json": {
+      "bytes": 37800,
+      "sha256": "07fe6c2e9eaec53c59652ce24199e3cd107e760f8b9f12b6686e1b0117915141"
+    },
+    "sources/index.html": {
+      "bytes": 10418,
+      "sha256": "52e1e9dc687adcd3b8a49eb1cd0795dce0347547803ed1f95880284640bd6a96"
+    },
+    "workbench/index.html": {
+      "bytes": 1836,
+      "sha256": "9b8395dda8f695f82b124448859b8f3187136c501dac942a19989bce68b3df9d"
+    }
+  },
+  "lepcis": {
+    "edition": "IRT2021; Reynolds, Roueché, Bodard, Barron and others",
+    "edition_revision": "9959aceb3c73a91de7ef4fdad72bcfcb65621e21",
+    "immutable_model_snapshot": "not supplied",
+    "prompt_sha256": "3c55499a7dc56a0ed6bb6fa9108b2d25d7848717d5f4e51980cb0bd29b52d819",
+    "publication": "Five exact annotation selections in HTML; no full model output",
+    "raw_output_sha256": "e3557fa40d3f569f1a4c5f0a9304e403e6dc14b5e37c087cc71453b15827f0db",
+    "requested_model": "gpt-6.1-sol",
+    "source_sha256": {
+      "IRT0301": "2d7d933644307004151ea1863e3c1155651e867e5a794fbf735acb173ac6aae2",
+      "IRT0319": "9bbfa1447a66f09fa0af495efa2c65203e52c7bb1f93eda7809191612c5e0350",
+      "IRT0321": "0657984ee29f9bd945fa8e9dd60bf36debf110acc13d34f29a11da5fbec966a1",
+      "IRT0347": "6577d13bca32403b331f6821f97ba692d5a3fe1a501a1f6330681100eb1fa715",
+      "IRT0353": "c6b3b89f1541bea9fae76b0f29714f9f7090eea0501b2941447e290058bbeb2e",
+      "IRT0393": "020b1a847023566a2e19c7dc73cdaed7732128de562248bf33226cebcdfb3e2d",
+      "IRT0412": "519b050a2b7b193f91246efb5c4442362161d36ceadc3d119fa63f01988a7b7a"
+    },
+    "span_checks": {
+      "matched": 26,
+      "meaning": "Exact supplied-line quotation matching, not historical accuracy",
+      "total": 26
+    }
+  },
+  "limitations": [
+    "No independent expert annotation adjudication",
+    "No new historical identity trajectory",
+    "Private backend not included",
+    "Canonical archive retains inaccessible private-document citation URLs; displayed as plain text"
+  ],
+  "reuse": "See sources/index.html for limited quotation, IRT licence notices and attribution. No blanket relicensing.",
+  "source_access": "Private research backend; public artifact only",
+  "source_commit": "999ba2e76b8f846eb28d1b56208d843396b1222b"
+}
